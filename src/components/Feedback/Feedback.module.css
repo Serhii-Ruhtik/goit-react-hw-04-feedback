@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.title {
+  color: #9f3333;
+}
+
+.btn {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9f3333;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 5px;
+}
+.span {
+  color: #9f3333;
+}
